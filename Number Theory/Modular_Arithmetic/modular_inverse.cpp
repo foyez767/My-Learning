@@ -2,6 +2,7 @@
 //first check gcd of (b,m) is 1 or not,if 1 then m is prime else m is not prime(inverse not possible)
 //b^-1=b^(m-2) mod m ;;determine it by using x^n mod m function then apply modular aritmetc rules
 //when multplying
+//this algorithm using recursion ,so for big data it is little bit slower 
 #include<bits/stdc++.h>
 using namespace std;
 
