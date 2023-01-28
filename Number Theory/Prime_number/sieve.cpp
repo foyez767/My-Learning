@@ -13,17 +13,16 @@ cin.tie(0);
     vector<bool>vec (n+1,true);
     vec[0]=vec[1]=false;
     //cutting all multiples 
-    for(long long i=2;i*i<=n;i++){
+    for(long long i=2; i*i<=n; i++){
         if(vec[i]==true){       // start i from 2 and marks all multiples of i as not prime
-            for(long long j=i*i;j<=n;j+=i)
+            for(long long j=i*i; j<=n; j+=i)
                 vec[j]=false;
         }
     }
     //all prime numbers between 1 to n
     for(long long i=1;i<=n;i++){
-        if(vec[i]==true)
+        if(vec[i])
             cout<<i<<" ";
-    }    
+    } 
     return 0;
 }
-//if(condition er value '0' mane false,onno sov value'r jonno eta true)
