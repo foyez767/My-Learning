@@ -92,7 +92,7 @@ int main(){
 
     int ans = 0, n = s.size();
 
-    for(int len = 1; len <= n / 2; len++){  //each substring length = 1, 2, 3, ... n/2
+    for(int len = 1; len <= n / 2; len++){  //each substring length = 1, 2, 3, ... n
         bool ok = true;
         for(int i = 0; i + len - 1 < n; i += len){
             ok &= getHash(i, i + len - 1) == getHash(0, len - 1);
@@ -100,7 +100,7 @@ int main(){
         ans += ok;
     }
 
-    cout << (ans + 1) << "\n";   //by adding 0 times the given string, it is possible to get given string, hence
+    cout << ans + 1 << "\n";   //by adding 0 times the given string, it is possible to get given string, hence
                                 //answer + 1 
 return 0;
 }

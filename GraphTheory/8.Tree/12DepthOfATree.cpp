@@ -11,7 +11,7 @@ void dfs(int u, int p){
 
     for(auto v : grp[u]){
         if(v != p){
-            dfs(v,u);       // for v, parent is u now
+            dfs(v, u);       // for v, parent is u now
         }
     }
 }

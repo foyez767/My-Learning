@@ -11,6 +11,7 @@ bool cycle = false;
 
 void dfs(int u){
     col[u] = 1;
+    
     for(auto v : grp[u]){
         if(col[v] == 0)
             dfs(v);

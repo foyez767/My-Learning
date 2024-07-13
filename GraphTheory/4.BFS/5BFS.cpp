@@ -9,10 +9,9 @@ vector<bool> vis (N,false);
 
 int main(){
     int n, e;   cin >> n >> e;
-    int u, v;
 
     for(int i = 1; i <= e; i++){
-        cin >> u >> v;
+        int u, v; cin >> u >> v;
         grp[u].push_back(v);
         grp[v].push_back(u);
     }
@@ -24,13 +23,13 @@ int main(){
     vis[1] = true;
 
     while(!q.empty()){
-        u = q.front();
+        int u = q.front();
         q.pop();
 
-        for(auto v : grp[u]){
-            if(!vis[v]){
-                q.push(v);
+        for (auto v : grp[u]) {
+            if (!vis[v]) {
                 vis[v] = true;
+                q.push(v);
             }
         }
     }

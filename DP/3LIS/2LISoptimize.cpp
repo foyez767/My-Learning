@@ -54,6 +54,8 @@ int main(){
         update(1, 1, M, arr[i], length[i]);
     }
     
+    // cout << query(1, 1, N, 1, M) << "\n";
+
     int ans = 0;
     for(int i = 1; i <= n; i++){
         ans = max(ans, length[i]);

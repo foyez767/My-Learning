@@ -12,7 +12,6 @@ void dfs(int u,int p){
 
     for(auto v : grp[u]){
         if(!vis[v]){
-            vis[v] = true;
             dfs(v, u);
         }else if(v != p){
             ok = true;

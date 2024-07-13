@@ -28,6 +28,7 @@ pair<int,int> getHash(string s){
     }
 return {hs1, hs2};
 }
+//if you want to return integar , do this :return hs1 * mod2 + hs2;
 
 int main(){
     precal();

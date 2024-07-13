@@ -5,34 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77d8cbe9-51d4-4aa7-82f7-74a256a1d390" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../BinarySearch/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../BinarySearch/main.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BitManipulation/Bit theory/subsets_string.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../BitManipulation/Bit theory/subsets_string.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Divisor/div_in_Range,.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Divisor/div_in_Range,.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Divisor/div_optimize.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Divisor/div_optimize.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Divisor/naive.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Divisor/naive.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GCD/lcm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GCD/lcm.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GCD/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GCD/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modular_Arithmetic/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modular_Arithmetic/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modular_Arithmetic/modular_inverse.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modular_Arithmetic/modular_inverse.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Number Theory/Prime_number/prime_factor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Number Theory/Prime_number/prime_factor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Number Theory/Prime_number/prime_factor.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Number Theory/Prime_number/prime_factor.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Number Theory/YouKnowWho.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Number Theory/e.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Number Theory/e.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Prime_number/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Prime_number/naive.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Prime_number/naive.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Prime_number/prime_factorization.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Prime_number/prime_factorization.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Prime_number/sieve.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Prime_number/sieve.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTheory/3.DFS/4ConectedComponentDFS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphTheory/3.DFS/4ConectedComponentDFS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTheory/9.Dijkstra/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphTheory/9.Dijkstra/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTheory/ex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphTheory/ex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTheory/ex.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../GraphTheory/ex.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../String Manipulation/Hashing/2.Double Hashing/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../String Manipulation/Hashing/2.Double Hashing/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../String Manipulation/Hashing/4.NoOfDivisors/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../String Manipulation/Hashing/4.NoOfDivisors/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../String Manipulation/Hashing/4.NoOfDivisors/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../String Manipulation/Hashing/4.NoOfDivisors/main.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +37,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/My Learning/BigIntegar",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/My Learning/BigIntegar&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

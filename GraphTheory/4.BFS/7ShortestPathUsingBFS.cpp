@@ -16,8 +16,7 @@ int main(){
         grp[v].push_back(u);
     }
 
-    int x, y; 
-    cin >> x >> y;      //find the shortest path from x to y
+    int x, y;   cin >> x >> y;      //find the shortest path from x to y
 
     queue<int> q;
     q.push(x), vis[x] = true;

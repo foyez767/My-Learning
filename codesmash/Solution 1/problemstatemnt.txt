@@ -1,0 +1,65 @@
+You are organizing a competition and you need to create a rank list of participants based on their scores. The competition consists of multiple rounds, and each participant's score is determined by their performance on those rounds.
+
+You are given the following inputs for the competition:
+
+- The number of participants, N.
+- N strings representing the names of the participants (Si). Each name consists of lowercase characters and has a length of at most 15.
+- N integers representing the number of rounds each participant participated (Ai).
+- N integers representing the number of rounds to be counted for each participant (Bi).
+
+Additionally, there are N lines of integers, where ith line represents the score obtained by ith participant in each round. If a participant scores less than 0 points in any round, he/she is considered disqualified from the competition.
+
+To determine the score for each participant, consider the best Bi rounds for participants where Bi is less than or equal to Ai. If Bi is greater than Ai, consider the score of all rounds the participant has played.
+
+The ranking system follows these rules:
+- Participants with higher scores are ranked higher.
+- In case of a tie in scores, the tiebreaker is the participant's names.
+- The tiebreaker is determined using the "lexicographic order" of the names. For example, if participants ac, aa, and ab have the same score, aa will be ranked first, ab second, and ac third.
+- If multiple participants scored the same score and share the same name, their ranks will also be "identical".
+
+Your job is to generate a ranking list for all participants based on the specified system. Output N lines, where the ith line represents the status of the ith participant after the competition in the following format: 'Rank Name Score.'
+
+If the ith participant was disqualified, the format will be: 'Disqualified Name'
+
+If no valid participants are identified, please display the message: 'Deception knows no bounds; it is an art mastered by all!.
+
+It is recommended see the explanation to understand it better.
+
+Sample Input :
+9
+aa de fu dc ad ak bu aa dc
+5 8 7 3 6 1 4 5 5
+3 5 2 5 4 1 3 2 3
+0 1 2 3 70
+0 2 5 20 -1 1 20 100
+1 2 8 10 12 3 2
+10 1 11
+0 11 0 15 0 49
+100
+1 20 15 5
+1 3 5 50 25
+1 2 11 7 5
+
+Sample Output :
+2 aa 75
+Disqualified de
+7 fu 22
+6 dc 22
+3 ad 75
+1 ak 100
+4 bu 40
+2 aa 75
+5 dc 23
+
+
+
+The first line contains a single integer n (1 <= n <= 1e3) --- the number of participants.
+
+The second line contains n strings separated by space s1, s2,..., sn, --- si represents name of the ith participant, where 1 <= abs (s) <= 10. Here abs(s) represents length of string.
+
+The third line contains n integers A1, A2, ..., An ( 1 <= Ai <= 1000) --- Ai represent number of rounds ith participant participated. 
+
+The fourth line contains n integers B1, B2, ..., Bn (1 <= Bi <= 1000) --- Bi represent number of rounds will be counted for ith participant.
+
+Additionally, there are N lines of integers, where ith line represents the score obtained by ith participant in each round.
+

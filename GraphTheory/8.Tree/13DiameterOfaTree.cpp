@@ -24,6 +24,7 @@ void dfs1(int u , int p){
 
 void dfs2(int u, int p){
     dep[u] = dep[p] + 1;
+    
     ans = max(maxi, dep[u] - 1);    //in dfs1 ,we alreday add 1 in dep[u], now again we are adding 1 in dep[u]
                                 // hence we are adding extra one, we need to subtract it
     for(auto v : grp[u]){
